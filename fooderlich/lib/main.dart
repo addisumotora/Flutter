@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fooderlich/home.dart';
 import 'fooderlich_theme.dart';
+import './gridview/gridview.dart';
 void main() {
   runApp( MyApp());
 }
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: theme,
       title: 'fooderlich',
-      home: Home(),
+      home: Grid()
         
     );
   }
